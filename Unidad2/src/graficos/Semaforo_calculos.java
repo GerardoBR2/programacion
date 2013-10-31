@@ -15,9 +15,6 @@ import graficos.Rectangle;
 				centro_y= 300;
 				diametro_disco= ancho/2;
 				
-				//Rectangle: (centro_x - ancho/2, centro_y - ancho/2)
-				
-				
 				caja = new Rectangle(centro_x - ancho/2, centro_y - ancho/2, ancho, alto );
 				caja.setColor(new Color(0,0,0));
 				caja.draw();
